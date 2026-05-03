@@ -262,11 +262,17 @@ async function start() {
 
         if (ImGui.TreeNode("extras")) {
             ImGui.Text("stuff n things:")
-            ImGui.TextColored(new ImGui.ImVec4(0.58, 1, 1, 0.47), "Can I steal this?");
+            ImGui.TextColored(new ImGui.ImVec4(0.58, 1, 1, 0.47), ">can I steal this?");
             ImGui.SameLine()
-            ImGui.TextColored(new ImGui.ImVec4(1, 1, 1, 0.25), "Nuh uh");
+            ImGui.TextColored(new ImGui.ImVec4(1, 1, 1, 0.25), "nuh uh");
 
-            ImGui.Text("> Can i steal this?") 
+            ImGui.TextColored(new ImGui.ImVec4(0.58, 1, 1, 0.47), ">are you a female?");
+            ImGui.SameLine()
+            ImGui.TextColored(new ImGui.ImVec4(1, 1, 1, 0.25), "maybe");
+
+            ImGui.TextColored(new ImGui.ImVec4(0.58, 1, 1, 0.47), ">ur music sucks i could submit soem?");
+            ImGui.SameLine()
+            ImGui.TextColored(new ImGui.ImVec4(1, 1, 1, 0.25), "no my music doesnt suck grr but if you wanna submit some just contact me on discord lol");
             ImGui.TreePop()
         }
 
