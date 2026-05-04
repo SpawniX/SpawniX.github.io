@@ -254,9 +254,9 @@ async function start() {
             ImGui.TreePop()
         }
 
-        if (ImGui.TreeNode("donations")) {
-            ImGui.Text("if u wanna buy me coffee ig :3")
-            if (ImGui.SmallButton("paypal")) window.open("https://paypal.me/", "_blank")
+        if (ImGui.TreeNode("Subdomains")) {
+            ImGui.Text("kewl stuff from the website")
+            if (ImGui.SmallButton("SeraphEngine (Unblocked games)")) window.open("./api/v3/SeraphEngine.html")
             ImGui.TreePop()
         }
 

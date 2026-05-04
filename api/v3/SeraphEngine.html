@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>seph's gaming room</title>
+    <link rel="icon" type="../../image/favicon.png" href=".">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body { 
+            background: #000; 
+            overflow: hidden; 
+            height: 100vh; 
+            width: 100vw;
+        }
+
+        #bg-img {
+            position: fixed;
+            top: 0; 
+            left: 0;
+            width: 100%; 
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            z-index: 1;
+            background: transparent;
+        }
+    </style>
+</head>
+<body>
+    <img id="bg-img" src="../../Images/bg.jpg" alt="background">
+
+    
+    <canvas id="output-canvas"></canvas>
+
+    <script src="../../imgui-js/dist/imgui.umd.js"></script>
+    <script src="../../imgui-js/dist/imgui_impl.umd.js"></script>
+    <script src="MainFrame.js"></script>
+</body>
+</html>
