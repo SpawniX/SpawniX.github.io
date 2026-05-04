@@ -103,7 +103,7 @@ async function start() {
             if (ImGui.SmallButton("Celeste.pxi"))  window.open("./gems/Celeste.html",  "_blank")
             if (ImGui.SmallButton("Balatro.pxi"))  window.open("./gems/Balatro.html",  "_blank")
             if (ImGui.SmallButton("Thats Not My Neighbour.pxi"))  window.open("./gems/TNMN.html",  "_blank")
-            if (ImGui.SmallButton("SlikSong.pxi"))  window.open("./gems/SilkSong.html",  "_blank")
+            if (ImGui.SmallButton("SilkSong.pxi"))  window.open("./gems/SilkSong.html",  "_blank")
             ImGui.TreePop()
         }
 
