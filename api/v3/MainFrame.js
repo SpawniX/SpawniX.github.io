@@ -98,7 +98,7 @@ async function start() {
             if (ImGui.SmallButton("Groomer Run Simulator.pxi"))  window.open("./gems/Epstein.html",  "_blank")
             if (ImGui.SmallButton("OSU.pxi"))  window.open("./gems/OSU.html",  "_blank")
             if (ImGui.SmallButton("Helltaker.pxi"))  window.open("./gems/HellTaker.html",  "_blank")
-            if (ImGui.SmallButton("Hollow Knight.pxi"))  window.open("./gems/Hollow Knight.html",  "_blank")
+            if (ImGui.SmallButton("Hollow Knight.pxi"))  window.open("./gems/Knight.html",  "_blank")
             if (ImGui.SmallButton("Ultrakill.pxi"))  window.open("./gems/Ultrakill.html",  "_blank")
             if (ImGui.SmallButton("Celeste.pxi"))  window.open("./gems/Celeste.html",  "_blank")
             if (ImGui.SmallButton("Balatro.pxi"))  window.open("./gems/Balatro.html",  "_blank")
