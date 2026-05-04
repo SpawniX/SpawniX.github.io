@@ -85,8 +85,6 @@ async function start() {
         ImGui.Text("SeraphEngine by SephXploiter")
         //Actually GOOD games btw
         if (ImGui.TreeNode("Gemmy Games")) {
-
-            if (ImGui.SmallButton("30 Dollars.gem"))  window.open("./KewlWeb/30Dollars.html",  "_blank")
             if (ImGui.SmallButton("Minecraft.pxi"))  window.open("./gems/Minecraft.html",  "_blank")
             if (ImGui.SmallButton("Geometry Dash.pxi"))  window.open("./gems/GemmyDash.html",  "_blank")
             if (ImGui.SmallButton("Baldi's Basic.pxi"))  window.open("./gems/Baldis.html",  "_blank")
@@ -99,12 +97,22 @@ async function start() {
             if (ImGui.SmallButton("Needy Streamer Overload.pxi"))  window.open("./gems/NSO.html",  "_blank")
             if (ImGui.SmallButton("Groomer Run Simulator.pxi"))  window.open("./gems/Epstein.html",  "_blank")
             if (ImGui.SmallButton("OSU.pxi"))  window.open("./gems/OSU.html",  "_blank")
+            if (ImGui.SmallButton("Helltaker.pxi"))  window.open("./gems/HellTaker.html",  "_blank")
+            if (ImGui.SmallButton("Hollow Knight.pxi"))  window.open("./gems/Hollow Knight.html",  "_blank")
+            if (ImGui.SmallButton("Ultrakill.pxi"))  window.open("./gems/Ultrakill.html",  "_blank")
+            if (ImGui.SmallButton("Celeste.pxi"))  window.open("./gems/Celeste.html",  "_blank")
+            if (ImGui.SmallButton("Balatro.pxi"))  window.open("./gems/Balatro.html",  "_blank")
+            if (ImGui.SmallButton("Thats Not My Neighbour.pxi"))  window.open("./gems/TNMN.html",  "_blank")
+            if (ImGui.SmallButton("SlikSong.pxi"))  window.open("./gems/SilkSong.html",  "_blank")
             ImGui.TreePop()
         }
 
         //More website focused
         if (ImGui.TreeNode("Kewl Websites")) {
             if (ImGui.SmallButton("30 Dollars.gem"))  window.open("./KewlWeb/30Dollars.html",  "_blank")
+            if (ImGui.SmallButton("AllAnime.gem"))  window.open("./KewlWeb/AllAnime.html",  "_blank")
+            if (ImGui.SmallButton("Cineby.gem"))  window.open("./KewlWeb/Cineby.html",  "_blank")
+
             ImGui.Text("More Websites Coming!")
             
             ImGui.TreePop()
